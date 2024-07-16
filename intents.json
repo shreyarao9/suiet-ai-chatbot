@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Can you help me?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later!",
+        "Have a nice day!",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "How do I register for Srinivas University?",
+        "How do I apply for admissions?",
+        "Where do I fill the application form?",
+	      "Where do I fill the registration form?"
+      ],
+      "responses": [
+        "The registration process begins by filling out the online application form available at https://apply.suiet.in/#applynow_2023-24. Please ensure all the required fields are accurately filled.",
+        "The online application form can be filled and submitted at https://apply.suiet.in/#applynow_2023-24 . Please ensure all the required fields are accurately completed."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Are you cash only?",
+	      "How to pay fees?",
+	      "What are the bank details of the college?",
+        "Payment method"
+      ],
+      "responses": [
+        "We accept payments via NEFT / Google Pay / PhonePe. A/C holder name: Srinivas University . Bank Name: Bank of Maharashtra . A/C no: 60494317155 . Branch: Hampankatta . IFSC no: MAHB0000381 .",
+	      "You can pay college fees using NEFT / Google Pay / PhonePe. A/C holder name: Srinivas University . Bank Name: Bank of Maharashtra . A/C no: 60494317155 . Branch: Hampankatta . IFSC no: MAHB0000381 ."
+      ]
+    },
+    {
+      "tag": "feestructure",
+      "patterns": [
+        "How much is the fees?",
+        "What is the fee structure?",
+        "Fees to be paid per year"
+      ],
+      "responses": [
+        "The total fees per year doesn't exceed more than Rs 1,50,000/- under management quota, except for the first year when you might have additional fees. Please cross-check with the office for precise and accurate amount.",
+        "It is roughly Rs 1,50,000/- per year (two semesters) under management quota. Please contact the office for precise and accurate amount."
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Is there a reservation fee for registration?",
+        "How can I make the reservation fee of Rs 30,000/- ?",
+        "How much do I pay for reserving a seat?",
+        "How much is the reservation fees?",
+        "How do I reserve a seat?"
+      ],
+      "responses": [
+        "Yes, there is a reservation fee of Rs. 30,000/- to be paid during the registration process. This amount will be considered as part of the first-year fee.",
+        "Reservation fee is of Rs. 30,000/- which will be considered as part of the first-year fee, and is needed to be paid during the registration process."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents do I need to submit for registration?",
+        "What documents are needed for admission?"
+      ],
+      "responses": [
+        "Along with the online application form and payment confirmation, you will be required to submit the necessary documents as specified in the registration guidelines. These documents may include academic transcripts, identification proof, and any additional documents as per the chosen program."
+      ]
+    },
+    {
+      "tag": "kcetdocuments",
+      "patterns": [
+        "What documents do I need to submit for admission through KCET?",
+	      "What documents are required for admission under CET quota?"
+      ],
+      "responses": [
+        "For admission under CET quota, the following documents are required: 4 copies of each document, CET admission order, SSLC marks card, PUC marks card, Transfer & conduct certificate, Certificate - 7 years, Caste/income certificate, PUC marks card."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Whom do I contact for admission related queries?",
+	"Is there anyone I can contact for further information?",
+	"What is the office phone number?"
+      ],
+      "responses": [
+        "For any payment-related or admission-related queries, please feel free to contact Mrs. Rajalakshmi, the Admission Officer at Srinivas University. You can reach her at +91 7026436197 or email your queries to admission@srinivasuniversity.edu.in. You can also try calling +91 824 2412382 and +91 824 2444891.",
+        "For any queries, contact +91 824 2412382, +91 824 2444891 or try emailing admission@srinivasuniversity.edu.in"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What are the courses available?",
+	"Can you tell me more about the courses offered?",
+	"What programmes are available?"
+      ],
+      "responses": [
+        "You can apply for any of the following BTech programmes: Computer Science and Engineering (CSE), Artificial Intelligence and Machine Learning (AIML), Cyber Security and Cyber Forensics (CSCF), Electronic Communications Engineering (ECE), Mechanical Engineering (Mech) and Civil Engineering; or opt for MTech in Computer Science and Engineering, Civil Engineering, Mechanical Engineering or Structural Engineering.",
+	"The following branches are available for BTech: Computer Science and Engineering (CSE), Artificial Intelligence and Machine Learning (AIML), Cyber Security and Cyber Forensics (CSCF), Electronic Communications Engineering (ECE), Mechanical Engineering (Mech) and Civil Engineering. MTech: Computer Science and Engineering, Civil Engineering, Mechanical Engineering or Structural Engineering."
+      ]
+    },
+    {
+      "tag": "unhelpful",
+      "patterns": [
+        "No that's not what I meant",
+	      "Not helpful",
+        "useless",
+        "very unhelpful",
+        "waste"
+      ],
+      "responses": [
+        "I'm really sorry I couldn't help you. As I'm just a bot, I have limited functionality when compared to an actual human. You should try contacting the office by calling +91 824 2412382 or +91 824 2444891 if you still have unresolved queries. Can I help you with anything else?",
+	"I'm sorry, but I'm unable to help with that at the moment. I apologize for any inconvenience. Is there anything else I can assist you with?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "I'm bored",
+        "Joke"
+      ],
+      "responses": [
+        "Debugging is a classic mystery game where you are the detective, the victim, and the murderer.",
+        "What did the buffalo say when his son left for college? Bison.",
+	"In an interview, the applicant told the manager that he wanted to be a scarecrow engineer..... outstanding in his field. He actually got the job.",
+	"Every couple has its moment.",
+	"Two cats are sitting on a slick metal roof. Which one falls off first? The one with the smallest mu.",
+	"What's an electrical engineer's favourite day? Faraday.",
+	"Bad electrical engineers become good electrical conductors.",
+	"What do you call the process of getting an engineering degree? A four-year transform.",
+	"Why did C++ decide not to go out with C? Because quite frankly, C just has no class.",
+	"I would tell you a UDP joke, but you might not get it."
+      ]
+    }
+  ]
+}
