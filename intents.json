@@ -37,7 +37,12 @@
         "How do I register for Srinivas University?",
         "How do I apply for admissions?",
         "Where do I fill the application form?",
-	      "Where do I fill the registration form?"
+	      "Where do I fill the registration form?",
+        "What is the registration process?",
+        "I want to apply",
+        "Application process",
+        "Application method",
+        "How to apply"
       ],
       "responses": [
         "The registration process begins by filling out the online application form available at https://apply.suiet.in/#applynow_2023-24. Please ensure all the required fields are accurately filled.",
@@ -50,7 +55,7 @@
         "Do you take credit cards?",
         "Are you cash only?",
 	      "How to pay fees?",
-	      "What are the bank details of the college?",
+	      "What are the bank details?",
         "Payment method"
       ],
       "responses": [
@@ -88,7 +93,9 @@
       "tag": "documents",
       "patterns": [
         "What documents do I need to submit for registration?",
-        "What documents are needed for admission?"
+        "What documents are needed for admission?",
+        "What and all documents should I submit?",
+        "Which documents to submit?"
       ],
       "responses": [
         "Along with the online application form and payment confirmation, you will be required to submit the necessary documents as specified in the registration guidelines. These documents may include academic transcripts, identification proof, and any additional documents as per the chosen program."
@@ -98,7 +105,8 @@
       "tag": "kcetdocuments",
       "patterns": [
         "What documents do I need to submit for admission through KCET?",
-	      "What documents are required for admission under CET quota?"
+	      "What documents are required for admission under CET quota?",
+        "Documents to submit for application through cet"
       ],
       "responses": [
         "For admission under CET quota, the following documents are required: 4 copies of each document, CET admission order, SSLC marks card, PUC marks card, Transfer & conduct certificate, Certificate - 7 years, Caste/income certificate, PUC marks card."
@@ -109,10 +117,12 @@
       "patterns": [
         "Whom do I contact for admission related queries?",
 	"Is there anyone I can contact for further information?",
-	"What is the office phone number?"
+	"What is the office phone number?",
+  "I want to talk to a person",
+  "I want to talk to office",
+  "Give me office contact number"
       ],
       "responses": [
-        "For any payment-related or admission-related queries, please feel free to contact Mrs. Rajalakshmi, the Admission Officer at Srinivas University. You can reach her at +91 7026436197 or email your queries to admission@srinivasuniversity.edu.in. You can also try calling +91 824 2412382 and +91 824 2444891.",
         "For any queries, contact +91 824 2412382, +91 824 2444891 or try emailing admission@srinivasuniversity.edu.in"
       ]
     },
@@ -121,10 +131,11 @@
       "patterns": [
         "What are the courses available?",
 	"Can you tell me more about the courses offered?",
-	"What programmes are available?"
+	"What programmes are available?",
+  "Which branches are there?"
       ],
       "responses": [
-        "You can apply for any of the following BTech programmes: Computer Science and Engineering (CSE), Artificial Intelligence and Machine Learning (AIML), Cyber Security and Cyber Forensics (CSCF), Electronic Communications Engineering (ECE), Mechanical Engineering (Mech) and Civil Engineering; or opt for MTech in Computer Science and Engineering, Civil Engineering, Mechanical Engineering or Structural Engineering.",
+        "You can apply for any of the following BTech programmes: Computer Science and Engineering (CSE), Artificial Intelligence and Machine Learning (AIML), Cyber Security and Cyber Forensics (CSCF), Electronic Communications Engineering (ECE), Mechanical Engineering (Mech), Civil Engineering and Aircraft Maintenance Engineering (AME); or opt for MTech in Computer Science and Engineering, Civil Engineering, Mechanical Engineering or Structural Engineering.",
 	"The following branches are available for BTech: Computer Science and Engineering (CSE), Artificial Intelligence and Machine Learning (AIML), Cyber Security and Cyber Forensics (CSCF), Electronic Communications Engineering (ECE), Mechanical Engineering (Mech) and Civil Engineering. MTech: Computer Science and Engineering, Civil Engineering, Mechanical Engineering or Structural Engineering."
       ]
     },
@@ -140,6 +151,47 @@
       "responses": [
         "I'm really sorry I couldn't help you. As I'm just a bot, I have limited functionality when compared to an actual human. You should try contacting the office by calling +91 824 2412382 or +91 824 2444891 if you still have unresolved queries. Can I help you with anything else?",
 	"I'm sorry, but I'm unable to help with that at the moment. I apologize for any inconvenience. Is there anything else I can assist you with?"
+      ]
+    },
+    {
+      "tag": "about-uni",
+      "patterns": [
+        "About the university",
+        "about srinivas"
+      ],
+      "responses": [
+        "A Private Research and Skill-focused University in Karnataka, India. Flagship of the 18 Srinivas Group of Institutions, Established by A. Shama Rao Foundation. Committed to Excellence in Education and Professional Development."
+      ]
+    },
+    {
+      "tag": "about-clg",
+      "patterns": [
+        "About the college",
+        "about suiet"
+      ],
+      "responses": [
+        "Engineering college located in Mukka, Surathkal, Mangalore."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "College address",
+        "Where is the college?",
+        "Where is the college located?",
+        "College location"
+      ],
+      "responses": [
+        "The college is located in Srinivas Nagar, Mukka, Surathkal, Mangaluru, Karnataka - 574146."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "Departments"
+      ],
+      "responses": [
+        "The college has the following departments- CSE, AIML, CSCF, ECE, Robotics, Mech, Civil and AME."
       ]
     },
     {

@@ -58,7 +58,7 @@ class ChatDataset(Dataset):#inherits Dataset
     
 #hyperparameters
 num_epochs = 1000
-batch_size = 8
+batch_size = 10
 hidden_size = 8
 output_size = len(tags)
 input_size = len(X_train[0]) # len of all_words could work here too
